@@ -5,6 +5,7 @@ def join_nested_strings(src)
   for a in src
     for i in a 
       str_array << i if i.class == String
+      
     end
   end
   str_array.
