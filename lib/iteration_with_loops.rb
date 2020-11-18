@@ -4,7 +4,8 @@ def join_nested_strings(src)
   str_array = []
   for a in src
     for i in a 
-      str_array << (i + " ") if i.class == String
+      str_array << i if i.class == String
+      str_array << " " if i.class == String
     end
   end
   str_array.
