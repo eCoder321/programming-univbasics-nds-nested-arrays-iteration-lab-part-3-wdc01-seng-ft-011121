@@ -12,4 +12,4 @@ def join_nested_strings(src)
   str_array.join[" "]
 end
 
-join_nested_strings([[1,2, "does"], [5, "this", "really"], [true, "work", 9]])
+p join_nested_strings([[1,2, "does"], [5, "this", "really"], [true, "work", 9]])
